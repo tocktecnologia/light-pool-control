@@ -77,6 +77,7 @@ void autoconnect_setup()
   // Config.reconnectInterval = 6; // Seek interval time is 180[s].
   // Config.autoReset = true;
   Config.apid = "TOCK CONFIG";
+  Config.psk = "12345678";
   // Config.portalTimeout = 180;
   // Config.beginTimeout = 30;
   Portal.config(Config);
